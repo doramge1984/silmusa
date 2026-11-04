@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>가정통신문 — 방과후학교 프로그램 신청 안내</title>
+<style>
+  :root{ --ink:#1f2a37; --sub:#5b6775; --line:#e3e8ef; --brand:#2E5395; --soft:#f4f7fb; }
+  *{box-sizing:border-box;}
+  body{margin:0;background:#eef1f6;color:var(--ink);
+       font-family:"맑은 고딕","Malgun Gothic",-apple-system,"Apple SD Gothic Neo",sans-serif;
+       line-height:1.75;padding:24px 14px;}
+  .sheet{max-width:720px;margin:0 auto;background:#fff;border:1px solid var(--line);
+         border-radius:14px;box-shadow:0 10px 30px rgba(30,50,90,.08);overflow:hidden;}
+  .top{background:linear-gradient(135deg,#2E5395,#3a67b4);color:#fff;padding:26px 30px;}
+  .top .sch{font-size:14px;opacity:.9;letter-spacing:.02em;}
+  .top h1{margin:6px 0 2px;font-size:25px;font-weight:800;letter-spacing:-.01em;}
+  .top .no{font-size:13px;opacity:.85;margin-top:8px;}
+  .body{padding:28px 30px 34px;}
+  .greet{font-size:16px;color:var(--ink);margin:0 0 18px;}
+  h2{font-size:17px;color:var(--brand);margin:26px 0 10px;padding-bottom:7px;
+     border-bottom:2px solid var(--brand);font-weight:800;}
+  ol.plan{margin:0;padding-left:0;list-style:none;counter-reset:p;}
+  ol.plan li{counter-increment:p;position:relative;padding:11px 14px 11px 46px;margin:8px 0;
+     background:var(--soft);border:1px solid var(--line);border-radius:10px;font-size:15.5px;}
+  ol.plan li::before{content:counter(p);position:absolute;left:12px;top:11px;width:24px;height:24px;
+     background:var(--brand);color:#fff;border-radius:50%;font-size:13px;font-weight:800;
+     display:flex;align-items:center;justify-content:center;}
+  ol.plan li b{color:var(--brand);}
+  table{width:100%;border-collapse:collapse;margin:8px 0 4px;font-size:15px;}
+  th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;}
+  th{background:var(--soft);color:var(--brand);width:34%;font-weight:700;}
+  .how{margin:0;padding-left:20px;font-size:15.5px;}
+  .how li{margin:6px 0;}
+  .note{background:#fff8e6;border:1px solid #f1d98c;border-radius:10px;padding:14px 16px;
+        font-size:14.5px;color:#7a5b10;margin:18px 0 0;}
+  .sign{margin-top:30px;padding-top:18px;border-top:1px dashed var(--line);text-align:center;color:var(--sub);}
+  .sign .date{font-size:15px;color:var(--ink);margin-bottom:6px;}
+  .sign .who{font-size:19px;font-weight:800;color:var(--ink);letter-spacing:.04em;}
+  .tag{display:inline-block;background:#e8f0fb;color:var(--brand);border:1px solid #cddcf3;
+       border-radius:20px;padding:3px 12px;font-size:12.5px;font-weight:700;margin-bottom:10px;}
+  @media(max-width:520px){ .top,.body{padding-left:20px;padding-right:20px;} .top h1{font-size:21px;} }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <div class="top">
+      <div class="sch">○○초등학교</div>
+      <h1>방과후학교 프로그램 신청 안내</h1>
+      <div class="no">가정통신문 제2026-45호</div>
+    </div>
+    <div class="body">
+      <span class="tag">학부모님께</span>
+      <p class="greet">학부모님, 안녕하십니까. 자녀의 소질과 적성을 키우는 <b>2026학년도 2학기 방과후학교 프로그램</b> 신청을 아래와 같이 안내드리오니, 기한 내에 신청해 주시기 바랍니다.</p>
+
+      <h2>운영 계획</h2>
+      <ol class="plan">
+        <li><b>신청 기간</b> — 2026년 9월 1일(화) ~ 9월 12일(금), 오후 5시까지</li>
+        <li><b>운영 기간</b> — 2026년 9월 22일(월) ~ 12월 19일(금), 주 2회</li>
+        <li><b>개설 과목</b> — 코딩, 미술, 축구, 바이올린, 한국어 교실 (총 5개 과목)</li>
+        <li><b>수강료</b> — 과목당 월 3만 원 (교육급여 대상 가정은 전액 무료)</li>
+        <li><b>신청 방법</b> — 신청서를 작성해 담임 선생님께 제출 또는 학교 누리집에서 온라인 신청</li>
+      </ol>
+
+      <h2>신청 서류</h2>
+      <table>
+        <tr><th>모든 가정</th><td>방과후학교 수강 신청서 1부</td></tr>
+        <tr><th>무료 대상 가정</th><td>교육급여 수급 증명서 1부 (해당자에 한함)</td></tr>
+      </table>
+
+      <h2>신청 방법</h2>
+      <ol class="how">
+        <li>가정에서 신청서를 작성합니다.</li>
+        <li>담임 선생님께 제출하거나, 학교 누리집 → 방과후학교 → 온라인 신청에서 접수합니다.</li>
+        <li>신청 결과는 9월 18일(목)에 문자로 안내됩니다.</li>
+      </ol>
+
+      <div class="note">※ 수강 인원이 정원을 초과하면 선착순으로 마감될 수 있습니다. 궁금한 점은 교무실(☎ 031-○○○-○○○○)로 문의해 주세요. 한국어가 어려운 가정은 통역 지원이 가능하니 편하게 연락 주세요.</div>
+
+      <div class="sign">
+        <div class="date">2026년 8월 28일</div>
+        <div class="who">○ ○ 초 등 학 교 장</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
