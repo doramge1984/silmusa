@@ -61,7 +61,7 @@ body{font-family:"Pretendard",-apple-system,"Apple SD Gothic Neo","Malgun Gothic
 #hint{position:fixed;left:18px;bottom:15px;font-size:11.5px;color:var(--sub);z-index:40;background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:30px;padding:5px 12px;opacity:.9}
 .nav{position:fixed;top:0;bottom:0;width:22%;z-index:30;cursor:pointer}.nav.l{left:0}.nav.r{right:0}
 @media(max-width:720px){.row{flex-direction:column;align-items:flex-start;gap:24px}.col-t,.col-a{flex:1 1 100%;width:100%}.slide{padding:7vh 7vw}#hint{display:none}}
-</style>
+.askbtn{display:inline-flex;align-items:center;gap:11px;background:#fff;border:1px solid var(--line);border-radius:40px;padding:16px 30px;font-size:clamp(17px,2.2vw,27px);font-weight:700;color:#2a2d33;box-shadow:var(--shadow)}.gstar{font-size:1.15em;background:linear-gradient(135deg,#4285f4 0%,#9b72cb 50%,#d96570 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}.askhint{font-size:clamp(12px,1.4vw,16px);color:var(--sub);font-weight:600}</style>
 </head>
 <body>
 <div id="bar"></div>
@@ -92,18 +92,18 @@ body{font-family:"Pretendard",-apple-system,"Apple SD Gothic Neo","Malgun Gothic
         </div>
       </div>
     </div>
-    <div class="cap">크롬 오른쪽 위 ✦ 단추 하나면 열려요. <span class="d">탭을 옮기지 않아요.</span></div>
+    <div class="cap">화면에서 ‘Gemini에게 물어보기’를 누르면 열려요. <span class="d">탭을 옮기지 않아요.</span></div>
   </section>
 
   <section class="slide">
     <div class="kick">2 · 켜는 법</div>
     <div class="row">
       <div class="col-t">
-        <div class="h">주소창 <span class="g">오른쪽 끝</span><br>✦ 단추를 누르세요</div>
-        <div class="lead">크롬을 최신으로 맞추면<br>이 단추가 보여요. 한 번만 켜면 끝.</div>
+        <div class="h"><span class="g">‘Gemini에게</span><br>물어보기’를<br>누르세요</div>
+        <div class="lead">화면에서 ‘Gemini에게 물어보기’를 누르면<br>옆 칸에 제미나이가 열려요. (아이콘으로도 OK)</div>
       </div>
       <div class="col-a">
-        <div class="toolbar"><div class="i">←</div><div class="i">→</div><div class="i">⟳</div><div class="u">https://우리학교.kr</div><div class="i hot">✦</div><div class="i">☰</div></div>
+        <div style="display:flex;flex-direction:column;gap:20px;align-items:center;width:100%"><div class="askbtn"><span class="gstar">✦</span> Gemini에게 물어보기</div><div class="askhint">▲ 보던 화면에 이렇게 떠요 — 누르면 옆 칸이 열려요</div></div>
       </div>
     </div>
     <div class="cap">안 보이면? <span class="d">크롬을 최신 버전으로 업데이트하면 나타나요.</span></div>
